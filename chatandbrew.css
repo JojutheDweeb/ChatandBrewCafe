@@ -814,8 +814,9 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
-     .about iframe{
-        width: 90%;
+       .about iframe{
+        width: 200%;
+        margin-left: 2.7rem;
     }
 }
 
