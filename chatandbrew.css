@@ -814,6 +814,9 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
+     .about iframe{
+        width: 90%;
+    }
 }
 
 @media (max-width: 450px){
