@@ -304,8 +304,11 @@ section{
 .about .row .content .btn{
     background-color: var(--mainc);
 }
-
-
+.about .yt iframe{
+    height: 400px;
+   width: 500px;
+   max-width:100%;
+   min-width: 30px;
 
 /*menu startes here*/
 
@@ -811,8 +814,19 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
-       .about iframe{
-        max-width: 200px;
+    .about .yt {
+        position: relative;
+        width: 100%;
+        padding-top: 0;
+    }
+    .about .yt iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -825,3 +839,4 @@ section{
    
 }
 
+}
