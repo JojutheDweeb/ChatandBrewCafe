@@ -304,6 +304,10 @@ section{
 .about .row .content .btn{
     background-color: var(--mainc);
 }
+.about iframe{
+    max-width: 365px;
+    max-height: 500px;
+}
 
 
 /*menu startes here*/
