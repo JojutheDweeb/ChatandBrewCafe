@@ -815,8 +815,7 @@ section{
         font-size: 1.5rem;
     }
        .about iframe{
-        width: 200%;
-        margin-left: 2.7rem;
+        max-width: 1000px;
     }
 }
 
